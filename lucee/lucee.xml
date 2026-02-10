@@ -1375,7 +1375,7 @@ Path: ${java_executable}
         <labelParameter>
             <name>NoSystemJavadetected</name>
             <title>No System Java detected</title>
-            <description>Lucee requires a Java runtime (Version 11 supported, Lucee 6.1+ supports Java 21 )</description>
+            <description>Lucee requires a Java runtime (Version 11 supported, Lucee 6.1+ supports Java 21, Lucee 7.1+ supports Java 25 )</description>
             <explanation>The bundled JRE will be automatically installed</explanation>
             <image></image>
             <ruleList>

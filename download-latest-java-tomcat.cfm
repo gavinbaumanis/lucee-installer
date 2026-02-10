@@ -25,8 +25,11 @@
 		java_version = 11;
 		tomcat_win_exe = "tomcat9w.exe";
 
-		if ( version[ 1 ] gt 6  ||
-			(version[ 1 ] gte 6 && version[ 2 ] gte 1 )){
+		if ( version[ 1 ] gt 7 ||
+			( version[ 1 ] gte 7 && version[ 2 ] gte 1 ) ){
+			java_version = 25; // 7.1 onwards
+		} else if ( version[ 1 ] gt 6  ||
+			( version[ 1 ] gte 6 && version[ 2 ] gte 1 ) ){
 			java_version = 21; // 6.1 onwards
 		}
 
